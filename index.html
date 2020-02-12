@@ -5,94 +5,84 @@
 <h1> GameLab</h1>
 </div>
 
-<div class="Game" >
-
-    <div class="IntroductionBox">
-        <img src="Texture/jyagamaru_kun.png" alt="写真" width="200px" height="200px">  
-        <p> じゃが丸君 </p>
-        <h2> 個人作成 ： アクションの動きを勉強時に作成 </h2>
-        </div>
-    <div class="IntroductionBox">
-        <img src="Texture/Osero.png" alt="写真" width="300px" height="200px"> 
-        <p> オセロ </p>
-        <h3> 個人作成 ： 暇つぶしに作成 </h3>
+<div class="MyCreateGame">
+    <div class="ClassBox">
+        <a href="MyCreateGame.html"> 作成ゲーム </a>
+        <h2>自身が作成したゲームの紹介です</h2>
+        <h3> (未完成のゲームもあったりします) </h3>
     </div>
 </div>
 
-<div class="Game">
-    <div class="IntroductionBox">
-        <img src="Texture/Thirteen.png" alt="写真" width="200px" height="200px"> 
-        <p> Thirteen </p>
-        <h4> チーム作成 ： 前期制作(後期)で作成 </h4>
-    </div>
-    <div class="IntroductionBox">
-       <img src="Texture/Title.png" alt="写真" width="300px" height="200px"> 
-       <p> AbilityPanic </p>
-       <h5> チーム作成 ： 前期制作(前期)で作成(未完成) </h5>
+<div class="profile">
+    <div class="ClassBox">
+        <a href="Profile.html">プロフィール</a>
+        <h2>作成主の自己紹介(仮)</h2>
+        <h3>作成主の闇を知ることが出来ます(笑)</h3>
     </div>
 </div>
+
+<div class="report">
+    <div class="ClassBox">
+        <a href="Report.html">レポート</a>
+        <h2>授業等で作成したレポートを置いている場です</h2>
+        <h3>主に作成主の復習用です</h3>
+    </div>
+</div>
+
 
 </html>
 
 
 <style>
 
+/* background option */
+body{
+    background-image: url("Texture/BackGround.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* GameLab frame option */
 .Title {
     width: 300px;
+    height: 100px;
     padding: 10px;
-    text-align: center;
-    border: 10px inset #8249dd;
+    border: 10px inset #3df0c3;
     background-color:  white;
     margin: 30px auto;
 }
 
-.Game {
-    text-align: center;
-}
-
-.IntroductionBox {
-    width: 500px;
-    height:500px;
-    display:  inline-block;
-    background-color:  rgb(255, 255, 255);
-    margin-bottom:25px;
-    margin-right: 25px;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-h1{font-size: 40px;text-align: center;color: rgb(22, 201, 177);}
-
-body{background-color: rgba(165, 226, 236, 0.993); background-size: 1980px;}
-
-p{
+/* GameLab title option */
+h1{
     font-size: 40px;
-    color :black;
     text-align: center;
+    color: rgb(22, 201, 177);
 }
 
-h2 {
-    font-size: 20px;
-    color :black;
-    text-align: center;
+/* MainExplanation option */
+h2{
+    color: black;
 }
 
+/* SubExplanation option */
 h3 {
-    font-size: 20px;
-    color :black;
-    text-align: center;
+    color: black;
 }
 
-h4 {
-    font-size: 20px;
-    color :black;
+/* ClassBox option */
+.ClassBox {
+    width: 500px;
+    height: 200px;
+    background-color:  rgb(255, 255, 255);
+    margin: 20px auto;
+    box-sizing: border-box;
     text-align: center;
+    border: 20px double #59e9a6;
 }
 
-h5 {
-    font-size: 20px;
-    color :black;
-    text-align: center;
+/* link option */
+a {
+    font-size: 25px;
 }
 
 </style>
