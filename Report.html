@@ -2,18 +2,17 @@
 <html>
 
 <div class="Title" >
-    <h1> GameLab</h1>
+    <h1> MonoLab</h1>
 </div>
+
+<p class="box"></p>
 
 <dic class="Profile">
     <div class="ClassBox">
-            <h2> 未作成 ゴメンナサイ.... </h2>
+        <a href="ContrastC++C#">C#/C++ 言語比較</a>
+        <h2> C,C+言語とC#での言語間の違いを書いていくつもりです </h2>
     </div>
 </dic>
-
-<div class="Return">
-    <a href="index.html">帰投</a>
-</div>
 
 </html>
 
@@ -22,18 +21,15 @@
 
 /* background option */
 body{
-    background-image: url("Texture/BackGround.png");
+    background-color:  white;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-/* GameLab frame option */
+/* Title Option */
 .Title {
     width: 300px;
-    height: 100px;
-    padding: 10px;
-    border: 10px inset #3df0c3;
-    background-color:  white;
+    height: 50px;
     margin: 30px auto;
 }
 
@@ -41,27 +37,28 @@ body{
 h1{
     font-size: 40px;
     text-align: center;
-    color: rgb(22, 201, 177);
+    color: rgb(17, 161, 180);
 }
-
+/* ClassBox option */
 .ClassBox {
-    width: 450px;
-    height: 50px;
+    width: 300px;
+    height: 80px;
     background-color:  rgb(255, 255, 255);
     margin: 20px auto;
     box-sizing: border-box;
     text-align: center;
+    border: 5px solid #2a3de9;
 }
 
 h2{
-    font-size: 40px;
+    font-size: 10px;
     color: black;
 }
 
 /* ReturnClass option */
 .Return{
-    height: 60px;
-    width: 100px;
+    height: 30px;
+    width: 140px;
     margin: 30px auto;
     text-align: center;
     background-color:  white;
@@ -69,8 +66,11 @@ h2{
 
 /* Link option */
 a{
-    font-size: 40px;
-    
+    font-size: 20px;
+}
+
+p.box {
+   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 </style>

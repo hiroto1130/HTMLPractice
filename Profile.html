@@ -1,79 +1,94 @@
 <!DOCTYPE html>
 <html>
 
-<div class="Title" >
-    <h1> GameLab</h1>
+<div class = "Title"> 
+    <h1> MonoLab</h1>
 </div>
 
-<div class="Profile">
-    <div class="ClassBox">
-        <h2> 未作成 ゴメンナサイ.... </h2>
+<p class="box"></p>
+
+<div class="name">
+    <div class="ClassStyle">
+        <h2>未作成です</h2>
+        <h3>許して(切実)</h3>
     </div>
 </div>
 
-
-
 <div class="Return">
-    <a href="index.html">帰投</a>
+    <a href="index.html">戻る</a>
 </div>
 
 </html>
 
-
-
 <style>
 
-/* background option */
+/* background Option */
 body{
-    background-image: url("Texture/BackGround.png");
+    background-color: rgb(255, 255, 255);
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-/* GameLab frame option */
+/* Title Option */
 .Title {
     width: 300px;
     height: 100px;
     padding: 10px;
-    border: 10px inset #3df0c3;
-    background-color:  white;
     margin: 30px auto;
+    
+}
+
+p.box {
+   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 /* GameLab title option */
 h1{
     font-size: 40px;
     text-align: center;
-    color: rgb(22, 201, 177);
+    color: rgb(17, 161, 180);
 }
 
-.ClassBox {
-    width: 450px;
-    height: 50px;
+p.box {
+   border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* ClassStyle Option */
+.ClassStyle{
+    width: 300px;
+    height: 150px;
     background-color:  rgb(255, 255, 255);
     margin: 20px auto;
     box-sizing: border-box;
     text-align: center;
+    border: 5px solid #2a3de9;
 }
 
+/* link option */
+a {
+    font-size: 25px;
+}
+
+/* MainExplanation option */
 h2{
-    font-size: 40px;
+    font-size: 15px;
+    color: black;
+}
+
+/* SubExplanation option */
+h3 {
+    font-size: 10px;
     color: black;
 }
 
 /* ReturnClass option */
 .Return{
-    height: 60px;
-    width: 100px;
-    margin: 30px auto;
+    height: 40px;
+    width: 60px;
+    margin: 0px auto;
     text-align: center;
     background-color:  white;
-}
-
-/* Link option */
-a{
-    font-size: 40px;
-    
+    border: 1px solid #2a3de9;
 }
 
 </style>

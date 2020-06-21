@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
 
-<div class="Title" >
-<h1> GameLab</h1>
+<div class = "Title"> 
+    <h1> MonoLab</h1>
 </div>
 
-<div class="MyCreateGame">
-    <div class="ClassBox">
+<p class="box"></p>
+
+<div class="name">
+    <div class="ClassStyle">
         <a href="MyCreateGame.html"> 作成ゲーム </a>
         <h2>自身が作成したゲームの紹介です</h2>
         <h3> (未完成のゲームもあったりします) </h3>
     </div>
 </div>
 
-<div class="profile">
-    <div class="ClassBox">
+<div class="name">
+    <div class="ClassStyle">
         <a href="Profile.html">プロフィール</a>
         <h2>作成主の自己紹介(仮)</h2>
         <h3>作成主の闇を知ることが出来ます(笑)</h3>
     </div>
 </div>
 
-<div class="report">
-    <div class="ClassBox">
+
+<div class="name">
+    <div class="ClassStyle">
         <a href="Report.html">レポート</a>
         <h2>授業等で作成したレポートを置いている場です</h2>
         <h3>主に作成主の復習用です</h3>
@@ -32,59 +35,61 @@
 
 </html>
 
-
 <style>
 
-/* background option */
+/* background Option */
 body{
-    background-image: url("Texture/BackGround.png");
+    background-color: rgb(255, 255, 255);
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
-/* GameLab frame option */
+/* Title Option */
 .Title {
     width: 300px;
     height: 100px;
     padding: 10px;
-    border: 10px inset #3df0c3;
-    background-color:  white;
     margin: 30px auto;
+    
 }
 
 /* GameLab title option */
 h1{
     font-size: 40px;
     text-align: center;
-    color: rgb(22, 201, 177);
+    color: rgb(17, 161, 180);
 }
 
-/* MainExplanation option */
-h2{
-    font-size: 20px;
-    color: black;
+p.box {
+   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-/* SubExplanation option */
-h3 {
-    font-size: 15px;
-    color: black;
-}
-
-/* ClassBox option */
-.ClassBox {
-    width: 500px;
-    height: 200px;
+/* ClassStyle Option */
+.ClassStyle{
+    width: 300px;
+    height: 150px;
     background-color:  rgb(255, 255, 255);
     margin: 20px auto;
     box-sizing: border-box;
     text-align: center;
-    border: 20px double #59e9a6;
+    border: 5px solid #2a3de9;
 }
 
 /* link option */
 a {
     font-size: 25px;
+}
+
+/* MainExplanation option */
+h2{
+    font-size: 15px;
+    color: black;
+}
+
+/* SubExplanation option */
+h3 {
+    font-size: 10px;
+    color: black;
 }
 
 </style>
